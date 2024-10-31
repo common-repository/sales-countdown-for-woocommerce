@@ -1,0 +1,26 @@
+.sscw-countdown {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    .sscw-time-box {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 1em;
+        border-radius: 100%;
+        background: #FFFFFF;
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,0.10);
+        .sscw-time-content {
+            display: inline-block;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .sscw-time {
+            display: block;
+        }
+    }
+}
